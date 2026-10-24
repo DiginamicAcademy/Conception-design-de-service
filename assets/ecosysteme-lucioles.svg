@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Lucioles : la carte des parties prenantes, du lecteur à l'environnement</title>
+  <rect x="1" y="1" width="998" height="658" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Lucioles — carte des parties prenantes</text>
+
+  <!-- Les cercles, de l'environnement vers l'usager -->
+  <ellipse cx="500" cy="345" rx="480" ry="290" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+  <ellipse cx="500" cy="345" rx="375" ry="225" fill="#fff7e6" stroke="#a34a00" stroke-width="1.5"/>
+  <ellipse cx="500" cy="345" rx="270" ry="162" fill="#f5f3ff" stroke="#6d28d9" stroke-width="1.5"/>
+  <ellipse cx="500" cy="345" rx="170" ry="100" fill="#dbeafe" stroke="#1e40af" stroke-width="1.5"/>
+  <ellipse cx="500" cy="345" rx="72" ry="36" fill="#1e40af"/>
+  <text x="500" y="350" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Lecteur·rice</text>
+
+  <!-- Noms des cercles -->
+  <g font-size="11" font-weight="700" letter-spacing="1.5" text-anchor="middle">
+    <text x="500" y="80" fill="#57606a">ENVIRONNEMENT</text>
+    <text x="500" y="145" fill="#a34a00">PARTENAIRES</text>
+    <text x="500" y="208" fill="#6d28d9">EN COULISSES</text>
+    <text x="500" y="270" fill="#1e40af">AU CONTACT</text>
+  </g>
+
+  <g font-size="13" fill="#1f2328" text-anchor="middle">
+    <!-- Au contact -->
+    <text x="380" y="341">Libraires</text>
+    <text x="380" y="357">au comptoir</text>
+    <text x="620" y="341">Site</text>
+    <text x="620" y="357">Lucioles</text>
+    <text x="500" y="418">SMS et page de suivi</text>
+
+    <!-- En coulisses -->
+    <text x="280" y="341">Libraires</text>
+    <text x="280" y="357">en réserve</text>
+    <text x="720" y="341">Coordinatrice</text>
+    <text x="720" y="357">du réseau</text>
+    <text x="352" y="257">Tablette du comptoir</text>
+    <text x="500" y="482">Logiciels de gestion (3 éditeurs)</text>
+
+    <!-- Partenaires -->
+    <text x="178" y="349">Distributeurs</text>
+    <text x="822" y="341">Prestataire</text>
+    <text x="822" y="357">SMS</text>
+    <text x="300" y="198">Éditeurs de logiciels</text>
+    <text x="500" y="542">Hébergeur</text>
+
+    <!-- Environnement -->
+    <text x="72" y="349">CNIL</text>
+    <text x="928" y="341">Grandes</text>
+    <text x="928" y="357">plateformes</text>
+    <text x="225" y="145">Presse locale</text>
+    <text x="775" y="145">Auteurs, éditeurs</text>
+    <text x="500" y="606">Agglomération — subvention</text>
+  </g>
+</svg>

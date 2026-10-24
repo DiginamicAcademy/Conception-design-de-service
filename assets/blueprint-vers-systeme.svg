@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Ce que le blueprint dit au concepteur : chaque couloir, chaque ligne et chaque repère devient un élément de conception</title>
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="588" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Ce que le blueprint dit au concepteur</text>
+
+  <g font-size="13" font-weight="700" fill="#57606a" text-anchor="middle">
+    <text x="180" y="64">Dans le blueprint</text>
+    <text x="765" y="64">Dans la conception de l'application</text>
+  </g>
+
+  <!-- Colonne de gauche : le blueprint -->
+  <g stroke-width="1.5">
+    <rect x="30" y="78" width="300" height="50" rx="8" fill="#dbeafe" stroke="#1e40af"/>
+    <rect x="30" y="140" width="300" height="50" rx="8" fill="#e0f2fe" stroke="#0369a1"/>
+    <rect x="30" y="202" width="300" height="50" rx="8" fill="#fef3c7" stroke="#a34a00"/>
+    <rect x="30" y="264" width="300" height="50" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <rect x="30" y="326" width="300" height="50" rx="8" fill="#dcfce7" stroke="#1a7f37"/>
+    <rect x="30" y="388" width="300" height="50" rx="8" fill="#f6f8fa" stroke="#57606a"/>
+    <rect x="30" y="450" width="300" height="50" rx="8" fill="#ffebe9" stroke="#cf222e"/>
+    <rect x="30" y="512" width="300" height="50" rx="8" fill="#fff8c5" stroke="#9a6700"/>
+  </g>
+  <g font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="middle">
+    <text x="180" y="108">Actions de l'usager</text>
+    <text x="180" y="170">Frontstage numérique</text>
+    <text x="180" y="232">Frontstage humain</text>
+    <text x="180" y="294">Backstage</text>
+    <text x="180" y="356">Processus support</text>
+    <text x="180" y="418">Flèches qui traversent une ligne</text>
+    <text x="180" y="480">Ruptures F et attentes A</text>
+    <text x="180" y="542">Engagements de la promesse</text>
+  </g>
+
+  <!-- Flèches -->
+  <g stroke="#57606a" stroke-width="1.8" marker-end="url(#fleche)">
+    <line x1="336" y1="103" x2="554" y2="103"/>
+    <line x1="336" y1="165" x2="554" y2="165"/>
+    <line x1="336" y1="227" x2="554" y2="227"/>
+    <line x1="336" y1="289" x2="554" y2="289"/>
+    <line x1="336" y1="351" x2="554" y2="351"/>
+    <line x1="336" y1="413" x2="554" y2="413"/>
+    <line x1="336" y1="475" x2="554" y2="475"/>
+    <line x1="336" y1="537" x2="554" y2="537"/>
+  </g>
+
+  <!-- Colonne de droite : la conception -->
+  <g fill="#ffffff" stroke="#57606a" stroke-width="1.5">
+    <rect x="560" y="78" width="410" height="50" rx="8"/>
+    <rect x="560" y="140" width="410" height="50" rx="8"/>
+    <rect x="560" y="202" width="410" height="50" rx="8"/>
+    <rect x="560" y="264" width="410" height="50" rx="8"/>
+    <rect x="560" y="326" width="410" height="50" rx="8"/>
+    <rect x="560" y="388" width="410" height="50" rx="8"/>
+    <rect x="560" y="450" width="410" height="50" rx="8"/>
+    <rect x="560" y="512" width="410" height="50" rx="8"/>
+  </g>
+  <g font-size="13" fill="#1f2328" text-anchor="middle">
+    <text x="765" y="108">Cas d'utilisation, user stories, écrans</text>
+    <text x="765" y="161">Interfaces : écrans, notifications,</text>
+    <text x="765" y="178">contenus des messages</text>
+    <text x="765" y="232">Outils du personnel : back-office, écrans métier</text>
+    <text x="765" y="285">Processus, règles de gestion,</text>
+    <text x="765" y="302">cycle de vie des objets du domaine</text>
+    <text x="765" y="347">Modules, intégrations, API,</text>
+    <text x="765" y="364">données de référence</text>
+    <text x="765" y="409">Contrats d'interface entre systèmes ;</text>
+    <text x="765" y="426">droits d'accès : qui voit quoi</text>
+    <text x="765" y="471">Cas d'erreur, plans de secours, relances,</text>
+    <text x="765" y="488">exigences de délai</text>
+    <text x="765" y="533">Niveaux de service mesurables :</text>
+    <text x="765" y="550">indicateurs (SLI) et objectifs (SLO)</text>
+  </g>
+</svg>

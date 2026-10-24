@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Anatomie d'un service blueprint : cinq couloirs séparés par trois lignes, sur l'exemple de Lucioles</title>
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="1098" height="638" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Anatomie d'un service blueprint — Lucioles : réserver un livre et le retirer</text>
+
+  <!-- Étapes -->
+  <g font-size="13" font-weight="700" fill="#1f2328" text-anchor="middle">
+    <text x="288" y="67">1. Chercher</text>
+    <text x="464" y="67">2. Réserver</text>
+    <text x="640" y="67">3. Être prévenu</text>
+    <text x="816" y="67">4. Retirer et payer</text>
+    <text x="992" y="67">5. Après</text>
+  </g>
+
+  <!-- Couloirs -->
+  <rect x="20" y="82" width="1060" height="64" fill="#f6f8fa"/>
+  <rect x="20" y="150" width="1060" height="64" fill="#eff6ff"/>
+  <rect x="20" y="236" width="1060" height="54" fill="#f0f9ff"/>
+  <rect x="20" y="294" width="1060" height="54" fill="#fffbeb"/>
+  <rect x="20" y="368" width="1060" height="64" fill="#f5f3ff"/>
+  <rect x="20" y="452" width="1060" height="64" fill="#f0fdf4"/>
+
+  <g font-size="12.5" font-weight="700" fill="#1f2328">
+    <text x="30" y="110">Preuves</text>
+    <text x="30" y="126">physiques</text>
+    <text x="30" y="178">Actions</text>
+    <text x="30" y="194">de l'usager</text>
+    <text x="30" y="259">Frontstage</text>
+    <text x="30" y="275">numérique</text>
+    <text x="30" y="317">Frontstage</text>
+    <text x="30" y="333">humain</text>
+    <text x="30" y="404">Backstage</text>
+    <text x="30" y="480">Processus</text>
+    <text x="30" y="496">support</text>
+  </g>
+
+  <!-- Les trois lignes -->
+  <line x1="20" y1="230" x2="1080" y2="230" stroke="#1e40af" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="20" y1="362" x2="1080" y2="362" stroke="#a34a00" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="20" y1="446" x2="1080" y2="446" stroke="#1a7f37" stroke-width="2" stroke-dasharray="8 5"/>
+  <g font-size="11.5" font-style="italic" font-weight="600">
+    <text x="30" y="225" fill="#1e40af">ligne d'interaction</text>
+    <text x="30" y="357" fill="#a34a00">ligne de visibilité</text>
+    <text x="30" y="441" fill="#1a7f37">ligne d'interaction interne</text>
+  </g>
+
+  <g font-size="11.5" fill="#1f2328" text-anchor="middle">
+    <!-- Preuves physiques -->
+    <rect x="208" y="88" width="160" height="52" rx="6" fill="#ffffff" stroke="#8c959f"/>
+    <text x="288" y="110">résultats par librairie</text>
+    <text x="288" y="126">+ heure du stock</text>
+    <rect x="384" y="88" width="160" height="52" rx="6" fill="#ffffff" stroke="#8c959f"/>
+    <text x="464" y="110">« demande envoyée »</text>
+    <text x="464" y="126">SMS d'accusé</text>
+    <rect x="560" y="88" width="160" height="52" rx="6" fill="#ffffff" stroke="#8c959f"/>
+    <text x="640" y="110">SMS « mis de côté »</text>
+    <text x="640" y="126">code R-4821</text>
+    <rect x="736" y="88" width="160" height="52" rx="6" fill="#ffffff" stroke="#8c959f"/>
+    <text x="816" y="110">étiquette R-4821</text>
+    <text x="816" y="126">ticket de caisse</text>
+
+    <!-- Actions de l'usager -->
+    <rect x="208" y="156" width="160" height="52" rx="6" fill="#dbeafe" stroke="#1e40af"/>
+    <text x="288" y="187">tape le titre</text>
+    <rect x="384" y="156" width="160" height="52" rx="6" fill="#dbeafe" stroke="#1e40af"/>
+    <text x="464" y="178">choisit la librairie,</text>
+    <text x="464" y="194">saisit nom, téléphone</text>
+    <rect x="560" y="156" width="160" height="52" rx="6" fill="#dbeafe" stroke="#1e40af"/>
+    <text x="640" y="178">lit le SMS,</text>
+    <text x="640" y="194">décide de passer</text>
+    <rect x="736" y="156" width="160" height="52" rx="6" fill="#dbeafe" stroke="#1e40af"/>
+    <text x="816" y="178">donne son code,</text>
+    <text x="816" y="194">paie, discute</text>
+
+    <!-- Frontstage numérique -->
+    <rect x="208" y="241" width="160" height="44" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="288" y="259">disponibilités</text>
+    <text x="288" y="275">par librairie</text>
+    <rect x="384" y="241" width="160" height="44" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="464" y="259">formulaire,</text>
+    <text x="464" y="275">page de confirmation</text>
+    <rect x="560" y="241" width="160" height="44" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="640" y="268">SMS et page de suivi</text>
+    <rect x="912" y="241" width="160" height="44" rx="6" fill="#e0f2fe" stroke="#0369a1" stroke-dasharray="5 4"/>
+    <text x="992" y="259">rappel la veille</text>
+    <text x="992" y="275">si non retiré</text>
+
+    <!-- Frontstage humain -->
+    <rect x="736" y="299" width="160" height="44" rx="6" fill="#fef3c7" stroke="#a34a00"/>
+    <text x="816" y="317">retrouve le livre,</text>
+    <text x="816" y="333">encaisse, conseille</text>
+
+    <!-- Backstage -->
+    <rect x="384" y="374" width="160" height="52" rx="6" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="464" y="396">la tablette du</text>
+    <text x="464" y="412">comptoir sonne</text>
+    <rect x="560" y="374" width="160" height="52" rx="6" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="640" y="396">vérifie le rayon,</text>
+    <text x="640" y="412">met de côté, confirme</text>
+    <rect x="736" y="374" width="160" height="52" rx="6" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="816" y="396">marque la réservation</text>
+    <text x="816" y="412">« retirée »</text>
+    <rect x="912" y="374" width="160" height="52" rx="6" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="992" y="396">remet en rayon</text>
+    <text x="992" y="412">les non-retirés</text>
+
+    <!-- Processus support -->
+    <rect x="208" y="458" width="160" height="52" rx="6" fill="#dcfce7" stroke="#1a7f37"/>
+    <text x="288" y="480">stocks : 2 API,</text>
+    <text x="288" y="496">3 exports nocturnes</text>
+    <rect x="384" y="458" width="160" height="52" rx="6" fill="#dcfce7" stroke="#1a7f37"/>
+    <text x="464" y="480">réservation créée</text>
+    <text x="464" y="496">et horodatée</text>
+    <rect x="560" y="458" width="160" height="52" rx="6" fill="#dcfce7" stroke="#1a7f37"/>
+    <text x="640" y="480">envoi du SMS,</text>
+    <text x="640" y="496">accusé de remise</text>
+    <rect x="736" y="458" width="160" height="52" rx="6" fill="#dcfce7" stroke="#1a7f37"/>
+    <text x="816" y="480">vente enregistrée</text>
+    <text x="816" y="496">dans le logiciel</text>
+    <rect x="912" y="458" width="160" height="52" rx="6" fill="#dcfce7" stroke="#1a7f37"/>
+    <text x="992" y="480">effacement</text>
+    <text x="992" y="496">des données à 30 j</text>
+  </g>
+
+  <!-- Dépendances : le chemin du moment de vérité MV2, et l'origine du stock affiché -->
+  <g fill="none" stroke="#57606a" stroke-width="1.6" marker-end="url(#fleche)">
+    <line x1="288" y1="458" x2="288" y2="289"/>
+    <line x1="464" y1="208" x2="464" y2="237"/>
+    <path d="M544,263 L552,263 L552,484 L548,484"/>
+    <line x1="464" y1="458" x2="464" y2="430"/>
+    <line x1="620" y1="426" x2="620" y2="454"/>
+    <path d="M720,484 L728,484 L728,263 L724,263"/>
+    <line x1="640" y1="241" x2="640" y2="212"/>
+  </g>
+
+  <!-- Repères -->
+  <g font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="326" y="232" width="40" height="17" rx="8" fill="#1e40af"/>
+    <text x="346" y="244.5">MV1</text>
+    <rect x="678" y="232" width="40" height="17" rx="8" fill="#1e40af"/>
+    <text x="698" y="244.5">MV2</text>
+    <rect x="854" y="290" width="40" height="17" rx="8" fill="#1e40af"/>
+    <text x="874" y="302.5">MV3</text>
+    <rect x="814" y="290" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="832" y="302.5">F5</text>
+    <rect x="684" y="365" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="702" y="377.5">F2</text>
+    <rect x="644" y="365" width="36" height="17" rx="8" fill="#9a6700"/>
+    <text x="662" y="377.5">A1</text>
+    <rect x="1036" y="365" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="1054" y="377.5">F4</text>
+    <rect x="332" y="449" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="350" y="461.5">F1</text>
+    <rect x="684" y="449" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="702" y="461.5">F3</text>
+  </g>
+
+  <!-- Légende -->
+  <line x1="20" y1="532" x2="1080" y2="532" stroke="#d0d7de" stroke-width="1"/>
+  <g font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="30" y="545" width="36" height="17" rx="8" fill="#cf222e"/>
+    <text x="48" y="557.5">F</text>
+    <rect x="210" y="545" width="36" height="17" rx="8" fill="#9a6700"/>
+    <text x="228" y="557.5">A</text>
+    <rect x="330" y="545" width="40" height="17" rx="8" fill="#1e40af"/>
+    <text x="350" y="557.5">MV</text>
+  </g>
+  <line x1="530" y1="553" x2="570" y2="553" stroke="#57606a" stroke-width="1.6" marker-end="url(#fleche)"/>
+  <g font-size="12.5" fill="#1f2328">
+    <text x="74" y="558">point de rupture</text>
+    <text x="254" y="558">attente</text>
+    <text x="378" y="558">moment de vérité</text>
+    <text x="582" y="558">dépendance, passage de relais</text>
+    <text x="30" y="592">Au-dessus de la ligne de visibilité : ce que voit l'usager. Au-dessous : ce qu'il ne voit pas — et c'est souvent là que le service casse.</text>
+    <text x="30" y="616" fill="#57606a">Un blueprint, un scénario. Ici : Malik réserve un livre en rayon et le retire le jour même. Cadre en pointillés : étape conditionnelle.</text>
+  </g>
+</svg>

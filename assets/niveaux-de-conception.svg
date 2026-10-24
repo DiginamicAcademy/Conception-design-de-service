@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Quatre échelles de conception : l'écran, le produit, le service, et le système qui en réalise une partie</title>
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="898" height="398" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Quatre échelles de conception</text>
+
+  <!-- Le service -->
+  <rect x="20" y="50" width="600" height="330" rx="14" fill="#fef3c7" stroke="#a34a00" stroke-width="2.5"/>
+  <text x="40" y="78" font-size="15" font-weight="700" fill="#a34a00">LE SERVICE</text>
+  <text x="40" y="98" font-size="13" fill="#1f2328">design de service : tous les canaux, devant et coulisses</text>
+
+  <!-- Le produit numérique -->
+  <rect x="45" y="120" width="330" height="240" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="65" y="148" font-size="14" font-weight="700" fill="#1e40af">LE PRODUIT NUMÉRIQUE</text>
+  <text x="65" y="167" font-size="12.5" fill="#1f2328">UX : utile, utilisable, agréable</text>
+
+  <!-- L'écran -->
+  <rect x="70" y="190" width="215" height="145" rx="10" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="90" y="218" font-size="13" font-weight="700" fill="#1e40af">L'ÉCRAN</text>
+  <text x="90" y="237" font-size="12" fill="#1f2328">UI : se comprend, se manipule</text>
+  <rect x="100" y="262" width="120" height="36" rx="7" fill="#1e40af"/>
+  <text x="160" y="285" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Réserver</text>
+
+  <!-- Les autres points de contact et les coulisses -->
+  <text x="400" y="132" font-size="12" font-weight="600" fill="#57606a">autres canaux, coulisses</text>
+  <g font-size="12.5" fill="#1f2328" text-anchor="middle">
+    <rect x="400" y="145" width="200" height="30" rx="15" fill="#ffffff" stroke="#a34a00"/>
+    <text x="500" y="165">le comptoir</text>
+    <rect x="400" y="185" width="200" height="30" rx="15" fill="#ffffff" stroke="#a34a00"/>
+    <text x="500" y="205">le SMS</text>
+    <rect x="400" y="225" width="200" height="30" rx="15" fill="#ffffff" stroke="#a34a00"/>
+    <text x="500" y="245">le téléphone</text>
+    <rect x="400" y="265" width="200" height="30" rx="15" fill="#ffffff" stroke="#a34a00" stroke-dasharray="5 4"/>
+    <text x="500" y="285">la tablette du libraire</text>
+    <rect x="400" y="305" width="200" height="30" rx="15" fill="#ffffff" stroke="#a34a00" stroke-dasharray="5 4"/>
+    <text x="500" y="325">la remise en rayon</text>
+  </g>
+  <text x="400" y="360" font-size="11" fill="#57606a">pointillés : invisible pour l'usager</text>
+
+  <!-- Le système -->
+  <rect x="645" y="120" width="235" height="240" rx="12" fill="#e6f4ea" stroke="#1a7f37" stroke-width="2"/>
+  <text x="665" y="148" font-size="14" font-weight="700" fill="#1a7f37">LE SYSTÈME</text>
+  <text x="665" y="167" font-size="12.5" fill="#1f2328">conception logicielle</text>
+  <g font-size="12.5" fill="#1f2328">
+    <text x="665" y="198">Réalise la partie numérique</text>
+    <text x="665" y="216">du service, devant et en</text>
+    <text x="665" y="234">coulisses :</text>
+    <text x="665" y="262">• modules et données</text>
+    <text x="665" y="284">• interfaces et API</text>
+    <text x="665" y="306">• intégrations</text>
+    <text x="665" y="328">• niveaux de service</text>
+  </g>
+  <line x1="645" y1="200" x2="624" y2="200" stroke="#1a7f37" stroke-width="2.5" marker-end="url(#fleche)"/>
+</svg>
