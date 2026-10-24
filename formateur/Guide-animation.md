@@ -1,6 +1,6 @@
 # Guide d'animation — formateur
 
-Ce guide accompagne le jour et demi du module **Conception et design de service**. Il complète le support : déroulé minuté, consignes d'animation, points de vigilance, ce que le commanditaire révèle de chaque brief, repères de correction. Il n'est pas repris dans le PDF.
+Ce guide accompagne les deux jours du module **Conception et design de service**. Il complète le support : déroulé minuté, consignes d'animation, points de vigilance, ce que le commanditaire révèle de chaque brief, repères de correction. Il n'est pas repris dans le PDF.
 
 > Ce dossier vit dans le dépôt public du cours : les apprenant·e·s peuvent le lire. Pour préserver l'effet des révélations du commanditaire, on peut le déplacer dans la partie pédagogique privée du cours.
 
@@ -10,7 +10,7 @@ Ce guide accompagne le jour et demi du module **Conception et design de service*
 |---|---|
 | Public | apprenant·e·s CDA |
 | Effectif conseillé | 12 à 16 personnes, en 4 équipes de 3 ou 4 ; jusqu'à 5 équipes, voir *Adaptations* |
-| Rythme | J1 : cours le matin (3 h 15), atelier l'après-midi (2 h 45) et restitution (45 min) ; J2 : cours (1 h 30), atelier (1 h) et soutenance (45 min) |
+| Rythme | J1 : cours le matin (3 h 15), atelier l'après-midi (2 h 45) et restitution (45 min) ; J2 : cours le matin (1 h 30), atelier en fin de matinée et l'après-midi (3 h 35), soutenance et bilan (1 h 10) |
 | Fil rouge | un brief par équipe, gardé jusqu'à la soutenance ([annexe A](../A-Briefs-projets.md)) ; les exemples du cours portent sur **Lucioles**, les exercices sur **la cantine** |
 | Évaluation | formative le J1 ; soutenance évaluée le J2 ([grille B.11](../B-Modeles-et-canevas.md)) |
 
@@ -109,7 +109,17 @@ Composez les équipes **dès l'ouverture** du J1 : l'exercice 3 du matin se fait
 
 ### Atelier — Concevoir et soutenir
 
-**Annoncez l'ordre de passage** de la soutenance dès 10:45, et la règle : chaque membre de l'équipe prend la parole.
+L'atelier occupe la fin de matinée et tout l'après-midi. Il n'apporte aucune notion nouvelle : le temps sert à approfondir, à relier et à répéter.
+
+| Horaire | Séquence | Notes d'animation |
+|---|---|---|
+| 10:45 | Lancement, étape 7 | Annoncez l'ordre de passage de la soutenance et la règle : chaque membre parle. Pendant la marche à blanc, jouez un système récalcitrant. |
+| 11:25 | Étape 8 | Passez d'abord voir les binômes B : le diagramme de classes dérive vite vers un schéma de base de données exhaustif. |
+| 13:30 | Mise en commun | Imposez-la : sans vocabulaire commun, la séquence et la matrice ne tiendront pas. |
+| 13:40 | Étape 9 | Vérifiez que chaque branche `alt` renvoie à une rupture F du blueprint. |
+| 14:30 | Étape 10 | La matrice de traçabilité révèle les trous : c'est voulu. Faites combler les plus graves, noter les autres. |
+| 15:20 | Préparation | Exigez la répétition complète, chronomètre en main : elle évite les soutenances qui débordent. |
+| 15:50 | Soutenance et bilan | Huit minutes, quatre de questions, puis dix minutes de bilan. |
 
 **Les binômes.** Si l'équipe hésite, composez-les vous-même : la personne la plus à l'aise en UML dans le binôme A.
 
@@ -121,11 +131,11 @@ Composez les équipes **dès l'ouverture** du J1 : l'exercice 3 du matin se fait
 - Des microservices par réflexe.
 - Un diagramme d'états sans états finaux, ou des états que l'usager ne comprendrait pas.
 - Des objectifs à 100 %.
-- À 11:20, les binômes ne se sont pas synchronisés : imposez la minute commune, le vocabulaire en dépend.
+- Une matrice de traçabilité remplie après coup, pour faire joli : demandez à l'équipe de lire une ligne de bout en bout, à voix haute.
 
-**La soutenance.** Sept minutes de présentation, trois de questions, chronomètre visible. Notez avec la grille B.11 pendant la présentation, et posez au moins une question parmi celles du support. Le groupe remplit une grille de retours B.10 par équipe. Remettez grilles et retours à la fin.
+**La soutenance.** Huit minutes de présentation, quatre de questions, chronomètre visible. Notez avec la grille B.11 pendant la présentation, et posez au moins une question parmi celles du support. Le groupe remplit une grille de retours B.10 par équipe. Remettez grilles et retours à la fin.
 
-**Le bilan.** Cinq minutes : le tour de table, puis le questionnaire d'évaluation de la formation. Rappelez que tous les livrables — écosystème, blueprint, cas d'utilisation, séquence, niveaux de service, journal — servent au dossier de projet.
+**Le bilan.** Dix minutes : le tour de table, puis le questionnaire d'évaluation de la formation. Rappelez que tous les livrables — écosystème, blueprint, cas d'utilisation, séquence, niveaux de service, journal — servent au dossier de projet.
 
 ## Les fiches commanditaire
 
@@ -235,8 +245,8 @@ Les briefs n'ont pas de « bonne réponse ». Ces repères disent ce que le brie
 
 ### Selon l'effectif
 
-- **Deux équipes :** restitution en 8 + 5 minutes ; soutenance en 10 + 5 minutes. Jouez vous-même des rôles supplémentaires pendant les marches à blanc.
-- **Cinq équipes :** restitution en 4 + 2 minutes ; soutenance en 6 + 2 minutes ; bilan réduit au questionnaire.
+- **Deux équipes :** restitution en 8 + 5 minutes ; soutenance en 12 + 6 minutes. Jouez vous-même des rôles supplémentaires pendant les marches à blanc.
+- **Cinq équipes :** restitution en 4 + 2 minutes ; soutenance en 8 + 3 minutes, bilan de cinq minutes.
 
 ### Selon le public
 
@@ -259,7 +269,7 @@ Ce qui peut se raccourcir sans casser la suite, par ordre de préférence :
 | J1, cours | partie 1.2, partie 2.1 ; exercice 2 corrigé collectivement | la partie 6 et l'exercice 3 |
 | J1, atelier | le détail du parcours actuel, le canevas de valeur | l'écosystème avec ses systèmes existants, les engagements, le blueprint |
 | J2, cours | parties 3.3 et 7, en démonstration seulement | parties 1, 4.2 et 6.2 |
-| J2, atelier | le diagramme de classes, réduit à l'objet central ; les exigences | la marche à blanc, la séquence d'un moment de vérité, la soutenance |
+| J2, atelier | le plan de pilote ; le diagramme de classes, réduit à l'objet central ; la répétition | la marche à blanc, la séquence d'un moment de vérité, la soutenance |
 
 ## Après la formation
 

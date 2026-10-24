@@ -19,7 +19,7 @@ footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/Publ
 
 ### Du service à l'application
 
-1,5 jour · Concepteur développeur d'applications
+2 jours · Concepteur développeur d'applications
 
 <!-- Diapositive d'ouverture. Avant de commencer : minuteur prêt, post-its de cinq couleurs, ruban adhésif, fiches commanditaire imprimées. Les équipes se composent pendant l'ouverture. -->
 
@@ -27,7 +27,7 @@ footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/Publ
 
 ## 🎯 Objectifs pédagogiques
 
-À la fin de ce jour et demi, vous saurez :
+À la fin de ces deux jours, vous saurez :
 
 1. Expliquer ce qu'est un service, et pourquoi une application n'en est qu'une partie
 2. Situer le design de service par rapport à l'UX, à l'UI et à la conception logicielle
@@ -40,13 +40,14 @@ footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/Publ
 
 ---
 
-## Le jour et demi
+## Les deux jours
 
 | Demi-journée | Cours | Atelier |
 |---|---|---|
 | **J1 matin** | Penser et cartographier un service | — |
 | **J1 après-midi** | — | Cartographier le service, puis restitution |
-| **J2 matin** | Du blueprint à l'application | Concevoir l'application, puis soutenance |
+| **J2 matin** | Du blueprint à l'application | Concevoir l'application : marche à blanc, binômes |
+| **J2 après-midi** | — | Concevoir l'application, suite : dossier de conception, puis soutenance |
 
 ---
 
@@ -54,10 +55,10 @@ footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/Publ
 
 | Jour 1 | | Jour 2 | |
 |---|---|---|---|
-| 09:00 | Ouverture | 09:00 | Rappel, puis cours 2 |
-| 09:20 – 12:30 | Cours 1, pause à 10:30 | 10:30 | Pause |
-| 13:30 – 16:15 | Atelier, partie 1 | 10:45 – 11:45 | Atelier, partie 2 |
-| 16:15 – 17:00 | Restitution | 11:45 – 12:30 | Soutenance |
+| 09:00 | Ouverture | 09:00 – 10:30 | Rappel, puis cours 2 |
+| 09:20 – 12:30 | Cours 1, pause à 10:30 | 10:45 – 12:30 | Atelier, partie 2 |
+| 13:30 – 16:15 | Atelier, partie 1 | 13:30 – 15:50 | Atelier, partie 2, suite |
+| 16:15 – 17:00 | Restitution | 15:50 – 17:00 | Soutenance et bilan |
 
 ---
 
@@ -867,16 +868,28 @@ Trois questions : **« Qui fait ça ? Comment le sait-il ? Et si ça ne marche p
 
 ---
 
-## L'heure d'atelier, en binômes
+## L'atelier, en binômes puis ensemble
 
 | Horaire | Binôme A | Binôme B |
 |---|---|---|
-| 10:48 | **Ensemble** : retours d'hier, marche à blanc | |
-| 11:00 | acteurs, cas d'utilisation, modules | domaine, cycle de vie |
-| 11:20 | séquence d'un moment de vérité | niveaux de service, exigences |
-| 11:35 | **Ensemble** : préparer la soutenance | |
+| 10:55 | **Ensemble** : retours d'hier, marche à blanc | |
+| 11:25 | acteurs, cas d'utilisation, modules | domaine, cycle de vie |
+| 13:30 | **Ensemble** : mise en commun | |
+| 13:40 | séquence d'un moment de vérité | niveaux de service, exigences |
+| 14:30 | **Ensemble** : dossier de conception | |
+| 15:20 | **Ensemble** : préparer et répéter la soutenance | |
 
-> À 11:20, une minute ensemble : les mêmes mots pour les mêmes choses.
+> À 13:30, la mise en commun : les mêmes mots pour les mêmes choses.
+
+---
+
+## Étape 10 — Le dossier de conception
+
+**40 minutes, toute l'équipe**
+
+1. La **matrice de traçabilité** : une ligne par étape du scénario principal — une case vide est un trou de conception
+2. Ce que le service **ne fera pas**, et pourquoi
+3. Un **plan de pilote** : où, combien de temps, avec qui, quels indicateurs
 
 ---
 
@@ -892,7 +905,7 @@ Trois questions : **« Qui fait ça ? Comment le sait-il ? Et si ça ne marche p
 
 ## La soutenance
 
-**7 minutes, 3 minutes de questions — chaque membre parle**
+**8 minutes, 4 minutes de questions — chaque membre parle**
 
 | Temps | Contenu |
 |---|---|
@@ -900,7 +913,8 @@ Trois questions : **« Qui fait ça ? Comment le sait-il ? Et si ça ne marche p
 | 2 min | le blueprint cible ; ce que la marche à blanc a changé |
 | 2 min | acteurs, modules, objet central et son cycle de vie |
 | 1 min 30 | le moment de vérité en séquence, et ses niveaux de service |
-| 30 s | ce que le service ne fera pas, et pourquoi |
+| 1 min | une ligne de la matrice de traçabilité |
+| 30 s | ce que le service ne fera pas, et le plan de pilote |
 
 ---
 

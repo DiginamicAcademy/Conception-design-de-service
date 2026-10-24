@@ -7,13 +7,13 @@
 
 # Conception et design de service
 
-Un jour et demi pour apprendre à concevoir **un service**, et pas seulement une application : comprendre l'écosystème dans lequel il s'inscrit, dessiner le parcours de ses usager·e·s sur tous les canaux, rendre visibles les coulisses qui le font fonctionner, puis en tirer la conception de l'application qui en réalisera une partie. Le cours alterne **apports théoriques** et **atelier en équipe** sur un fil rouge, et se termine par une **soutenance** devant le groupe.
+Deux jours pour apprendre à concevoir **un service**, et pas seulement une application : comprendre l'écosystème dans lequel il s'inscrit, dessiner le parcours de ses usager·e·s sur tous les canaux, rendre visibles les coulisses qui le font fonctionner, puis en tirer la conception de l'application qui en réalisera une partie. Le cours alterne **apports théoriques** et **atelier en équipe** sur un fil rouge, et se termine par une **soutenance** devant le groupe.
 
-Le cours s'adresse à des concepteur·rice·s développeur·se·s d'applications, pas à des designers : il ne fait pas de vous des designers de service en un jour et demi. Il vous donne de quoi vous poser, avant d'écrire la première ligne de code, la question que les clients ne posent jamais : **qu'est-ce qui doit se passer, et pour qui, pour que ce service soit vraiment rendu ?** Et il vous apprend à transformer la réponse en architecture.
+Le cours s'adresse à des concepteur·rice·s développeur·se·s d'applications, pas à des designers : il ne fait pas de vous des designers de service en deux jours. Il vous donne de quoi vous poser, avant d'écrire la première ligne de code, la question que les clients ne posent jamais : **qu'est-ce qui doit se passer, et pour qui, pour que ce service soit vraiment rendu ?** Et il vous apprend à transformer la réponse en architecture.
 
 ## 🎯 Objectifs pédagogiques
 
-À la fin de ce jour et demi, vous saurez :
+À la fin de ces deux jours, vous saurez :
 
 1. Expliquer ce qu'est un service, ce qui le distingue d'un produit, et pourquoi une application n'en est presque toujours qu'une partie.
 2. Situer le design de service par rapport à l'UX, à l'UI et à la conception logicielle, et en appliquer les principes.
@@ -50,7 +50,7 @@ Le modèle du domaine construit au deuxième jour prépare aussi la compétence 
 - Aucune compétence graphique n'est requise : on dessine des boîtes et des flèches.
 - Un ordinateur portable avec un navigateur récent.
 
-## Organisation du jour et demi
+## Organisation des deux jours
 
 ### Le déroulé
 
@@ -65,18 +65,21 @@ Le modèle du domaine construit au deuxième jour prépare aussi la compétence 
 | | 16:15 – 17:00 | Restitution : chaque équipe présente, le groupe fait ses retours |
 | **Jour 2** | 09:00 – 10:30 | Rappel de la veille, puis cours 2 |
 | | 10:30 – 10:45 | Pause |
-| | 10:45 – 11:45 | Atelier, partie 2, en équipe |
-| | 11:45 – 12:30 | Soutenance finale |
+| | 10:45 – 12:30 | Atelier, partie 2, en équipe : marche à blanc, conception en binômes |
+| | 12:30 – 13:30 | Déjeuner |
+| | 13:30 – 15:50 | Atelier, partie 2, suite : séquence, niveaux de service, dossier de conception (pause de 10 minutes incluse) |
+| | 15:50 – 17:00 | Soutenance finale et bilan |
 
 Les horaires sont indicatifs : ce sont les durées qui comptent.
 
-### Les trois demi-journées
+### Les quatre demi-journées
 
 | Demi-journée | Cours | Atelier | Ce que l'équipe montre |
 |---|---|---|---|
 | **Jour 1, matin** | Penser et cartographier un service : service et produit, principes, écosystème, promesse, parcours, moments de vérité, service blueprint | — | — |
 | **Jour 1, après-midi** | — | Cartographier le service : écosystème, parcours actuel, promesse et engagements, parcours cible, blueprint | Restitution : la promesse, le blueprint, le point de rupture le plus grave et ce que le service cible en fait |
-| **Jour 2, matin** | Du blueprint à l'application : acteurs, cas d'utilisation, modules, domaine, séquences, niveaux de service, marche à blanc | Concevoir l'application du service : marche à blanc, cas d'utilisation, modules, domaine, séquence, niveaux de service | Soutenance : la démarche complète, du brief à l'architecture |
+| **Jour 2, matin** | Du blueprint à l'application : acteurs, cas d'utilisation, modules, domaine, séquences, niveaux de service, marche à blanc | Concevoir l'application du service : marche à blanc, cas d'utilisation et modules, domaine et cycle de vie | — |
+| **Jour 2, après-midi** | — | Concevoir l'application du service, suite : séquence d'un moment de vérité, niveaux de service, dossier de conception traçable | Soutenance : la démarche complète, du brief à l'architecture |
 
 ### Le fil rouge
 
@@ -103,7 +106,7 @@ Chaque séquence est un fichier. On les suit **dans l'ordre** : chaque atelier s
 | [01](01-J1-Cours-Penser-et-cartographier-un-service.md) | Penser et cartographier un service | J1 matin | 3 h 15 | service et produit, design de service, écosystème, promesse et engagements, parcours cible, moments de vérité, service blueprint |
 | [02](02-J1-Atelier-Cartographier-le-service.md) | Atelier, partie 1 : cartographier le service | J1 après-midi | 2 h 45 + 45 min | brief et commanditaire, écosystème, parcours actuel, promesse, parcours cible, blueprint, restitution |
 | [03](03-J2-Cours-Du-blueprint-a-l-application.md) | Du blueprint à l'application | J2 matin | 1 h 30 | lire un blueprint en concepteur, cas d'utilisation, modules, domaine, séquences, niveaux de service, marche à blanc |
-| [04](04-J2-Atelier-Concevoir-et-soutenir.md) | Atelier, partie 2 : concevoir et soutenir | J2 matin | 1 h + 45 min | marche à blanc, cas d'utilisation et modules, domaine, séquence d'un moment de vérité, niveaux de service, soutenance |
+| [04](04-J2-Atelier-Concevoir-et-soutenir.md) | Atelier, partie 2 : concevoir et soutenir | J2 fin de matinée et après-midi | 3 h 35 + 1 h 10 | marche à blanc, cas d'utilisation et modules, domaine, séquence d'un moment de vérité, niveaux de service, dossier de conception, soutenance |
 | [A](A-Briefs-projets.md) | Briefs projets | J1 → J2 | — | les quatre services du fil rouge |
 | [B](B-Modeles-et-canevas.md) | Modèles et canevas | J1 → J2 | — | gabarits d'écosystème, de parcours, de blueprint, de niveaux de service, grilles de retours et d'évaluation |
 | [C](C-Glossaire-et-ressources.md) | Glossaire et ressources | — | — | vocabulaire français / anglais, références, outils |

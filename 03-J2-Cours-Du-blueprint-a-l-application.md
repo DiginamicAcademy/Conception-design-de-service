@@ -2,7 +2,7 @@
 
 # Jour 2 · Cours — Du blueprint à l'application
 
-> **Jour 2, matin — 1 h 30.** Juste après la pause, vous appliquerez cette démarche au blueprint de votre équipe dans l'[atelier « Concevoir et soutenir »](04-J2-Atelier-Concevoir-et-soutenir.md).
+> **Jour 2, matin — 1 h 30.** Juste après la pause, et tout l'après-midi, vous appliquerez cette démarche au blueprint de votre équipe dans l'[atelier « Concevoir et soutenir »](04-J2-Atelier-Concevoir-et-soutenir.md).
 
 ## 🎯 Objectifs
 

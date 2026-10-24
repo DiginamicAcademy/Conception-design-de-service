@@ -40,7 +40,7 @@ Tout est rangé dans la page `J1 – Service` de l'espace d'équipe. Les support
 
 ### Les rôles, tournants
 
-Les rôles changent de main demain matin. Tout le monde prendra la parole à la soutenance.
+Les rôles changent de main demain. Tout le monde prendra la parole à la soutenance.
 
 | Rôle | Responsabilité |
 |---|---|
@@ -148,7 +148,7 @@ Un seul scénario : le chemin **nominal** du parcours cible, pour l'usager princ
 
 Une organisation qui fonctionne : toute l'équipe pose ensemble les actions de l'usager, puis on se répartit les couloirs, et on se retrouve pour tracer les flèches et annoter. Chaque flèche qui traverse une ligne mérite une question : « Qui transmet quoi, quand, et que se passe-t-il si ça ne passe pas ? »
 
-> **Si le temps manque**, dans l'ordre : les actions de l'usager, le backstage, les processus support, les ruptures. Les preuves physiques peuvent se compléter demain matin.
+> **Si le temps manque**, dans l'ordre : les actions de l'usager, le backstage, les processus support, les ruptures. Les preuves physiques peuvent se compléter demain, pendant la marche à blanc.
 
 ## Préparer la restitution (10 min)
 
@@ -168,7 +168,7 @@ Chaque équipe dispose de **cinq minutes de présentation et de trois minutes de
 - **Je me demande…** : ce qui n'est pas étayé, ce qui reste flou ;
 - **Je propose…** : une piste concrète pour la suite.
 
-Les retours portent sur le travail, jamais sur les personnes. L'équipe qui présente écoute et note, sans se justifier : elle en tiendra compte demain matin, à la première étape de l'atelier.
+Les retours portent sur le travail, jamais sur les personnes. L'équipe qui présente écoute et note, sans se justifier : elle en tiendra compte demain, à la première étape de l'atelier.
 
 ---
 

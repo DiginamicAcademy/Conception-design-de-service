@@ -12,7 +12,7 @@ course:
   RNCP:
     - RNCP37873
   RNCPBloc: []
-  timing: 1.5
+  timing: 2
 
 credits:
   authors:
